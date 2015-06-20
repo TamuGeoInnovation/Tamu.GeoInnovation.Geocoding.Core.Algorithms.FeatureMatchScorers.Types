@@ -1,5 +1,4 @@
 ﻿using System;
-using USC.GISResearchLab.Geocoding.Core.ReferenceDatasets.ReferenceFeatures;
 
 namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
 {
