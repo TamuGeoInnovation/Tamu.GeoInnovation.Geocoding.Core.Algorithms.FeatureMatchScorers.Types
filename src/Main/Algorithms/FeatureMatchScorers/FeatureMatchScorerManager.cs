@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
+﻿namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
 {
 
     public enum FeatureMatchScorerType { EditDistance }
@@ -9,7 +7,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
     public enum FeatureMatchAddressParityResultType { Unknown, CorrectParity, IncorrectParity, }
     public enum FeatureMatchAddressRangePreferredEndResultType { Unknown, HiEnd, LoEnd, }
     public enum FeatureMatchAddressRangePreferredAddressRangeResultType { Unknown, AddressRange, HouseNumber, Super }
-    public enum AddressNumberType { Unknown, Number, Fractional}
+    public enum AddressNumberType { Unknown, Number, Fractional }
 
-    
+
 }
